@@ -28,28 +28,29 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter.title" content="Prakayush|Web Developer" />
     <link rel="icon" href="my img.jpg" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <nav>
-        <h3>Navigation Bar:</h3>
+      <nav class="nav-section">
+        <h3 class="one"><u>Navigation Bar:</u></h3>
         <div class="logo">PK</div>
-        <ul>
+        <ul class="list-sec">
           <li>
-            <a href="#about"><button>about</button></a>
+            <a href="#about"><button class="button-sec">about</button></a>
           </li>
           <li>
-            <a href="#skills"><button>skills</button></a>
+            <a href="#skills"><button class="button-sec">skills</button></a>
           </li>
           <li>
-            <a href="#projects"><button>projects</button></a>
+            <a href="#projects"><button class="button-sec">projects</button></a>
           </li>
           <li>
-            <a href="#contact"><button>contact</button></a>
+            <a href="#contact"><button class="button-sec">contact</button></a>
           </li>
         </ul>
         <button
-          class="theme-toogle"
+          class="theme-toggle"
           aria-label="Toggle dark mode"
           title="Toggle dark mode"
         >
@@ -68,6 +69,15 @@
     <hr />
 
     <main>
+      <section id="hero" class="hero-section">
+           <br> <h1>Hi,I'm Prakayush 👋</h1><br>
+            <p>I'm a passionate web developer from Bengaluru.</p>
+            <div class="hero-button"><br>
+                <a href="#projects"><button class="button-sec">View My Work</button></a><br>
+                <a href="#contact"><button class="button-sec">Contact Me</button></a><br>
+            </div><hr><br>
+        </section>
+
       <section id="about" class="about-section">
         <h2><u>About Me</u></h2>
         <h1><em>Hi, I'm Prakayush</em>😊</h1>
@@ -76,38 +86,39 @@
           interactive and user-friendly websites.
         </p>
         <a href="#Hire"
-          ><button style="background-color: aqua">Hire Me</button></a
+          ><button class="button-sec">Hire Me</button></a
         >
         <br />
         <figure>
           <img
             src="my img.jpg"
             alt="Prakayush's Profile Photo"
+            class="Myphoto"
             width="150"
             height="150"
           />
-          <figcaption><u>Prakayush|Web Developer</u></figcaption>
+          <figcaption class="figcap-sec"><u>Prakayush|Web Developer</u></figcaption>
         </figure>
         <p>
           I love creating beautiful and functional websites that provide an
           excellent user experience.
-        </p>
+        </p><br>
       </section>
 
       <hr />
       <section id="skills" class="skills-section">
-        <h2><u>My skills</u></h2>
+        <br><h2><u>My skills</u></h2><br>
         <div class="skill-grid">
           <div class="skill-item" data-level="90">HTML</div>
           <div class="skill-item" data-level="80">CSS</div>
           <div class="skill-item" data-level="75">JavaScript</div>
-          <div class="skill-item" data-level="80">React</div>
+          <div class="skill-item" data-level="80">React</div><br>
         </div>
       </section>
 
       <hr />
       <section id="projects" class="projects-section">
-        <h2><u>My Projects</u></h2>
+        <h2><u>My Projects</u></h2><br>
         <div class="projects-grid">
           <article class="project-card" data-category="web" data-year="2026">
             <img
@@ -116,25 +127,25 @@
               width="150px"
               height="150px"
             />
-            <h3>Weather Application</h3>
+            <h3 class="head3">Weather Application</h3>
             <p>
               A web application that provides real-time weather information for
               any location.
             </p>
             <div class="projects_tag" data-category="web" data-year="2026">
               <span>React</span>
-              <span>API</span>
+              <span>API.</span>
             </div>
             <br />
-            <a href="#Live Demo">Live Demo</a>
-            <a href="#GitHub">Github</a>
+            <a href="#Live Demo" class="links-sec">Live Demo</a><br><br>
+            <a href="#GitHub" class="links-sec">Github</a><br>
           </article>
         </div>
 
         <hr />
       </section>
       <section id="contact" class="contact-section">
-        <h2><u>Get In touch</u></h2>
+        <br><h2><u>Get In touch</u></h2><br>
         <form action="#" method="post" novalidate>
           <div class="form-group">
             <label for="name">Name:</label>
@@ -158,7 +169,7 @@
             <label for="message">message:</label>
             <textarea name="message" id="message" rows="3" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" class="button-sec">
             Send Your Response🚀👆
           </button>
         </form>
@@ -166,13 +177,13 @@
       <hr />
     </main>
     <footer class="site-footer">
-      <p><strong>&copy;</strong> Prakayush Kumar. Built with HTML & CSS ❤️</p>
+      <br><p><strong>&copy;</strong> Prakayush Kumar. Built with HTML & CSS ❤️</p><br>
       <nav aria-label="socialmedia links">
         <a href="https://github.com/prakayushmsruas-hub" target="_blank"
-          >GitHub</a
+          ><button class="button-sec">Click to check out my GitHub👆</button></a
         >
         <a href="https://www.linkedin.com/in/prakayush-kumar-37a1b63b8/"
-          >linkedIn</a
+          ><button class="button-sec">Click to check out my linkedIn👆</button></a
         >
       </nav>
     </footer>
