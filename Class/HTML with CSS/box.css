@@ -1,0 +1,11 @@
+.one{
+    width: 300px;
+    
+    border: 7px red double;
+    text-align: justify;
+    padding: 15px;
+    /* Padding inside margin */
+    margin: 100px;
+    /* Margin for outside border */
+    
+}

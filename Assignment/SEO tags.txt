@@ -1,0 +1,20 @@
+<meta name="keywords" content="web developer,React,Js,Portfolio,HTML,CSS" />
+    <meta name="author" content="Prakayush" />
+
+    <!-- open graph (for facebook,linkedin,whatsapp Previews) -->
+    <meta property="og:title" content="Prakayush|Web Developer" />
+    <meta
+      property="og:description"
+      content=" full stack Web Developer specialized in front-end and back-end development.Available for freelance work and open to new opportunities."
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/0j6Z7gM/IMG-20230619-174059.jpg"
+    />
+    <meta property="og:url" content="https://prakayush.github.io/Portfolio/" />
+    <meta property="og:type" content="website" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter.title" content="Prakayush|Web Developer" />
+    <link rel="icon" href="my img.jpg" />

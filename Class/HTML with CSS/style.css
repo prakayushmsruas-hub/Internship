@@ -1,0 +1,65 @@
+/* Element Selector */
+h3{
+    color:blueviolet;
+}
+
+/* Called Class attribute */
+/* Class Selector */
+.about-section{
+    color:green;
+}
+
+/* id selector */
+#hi-guys{
+    color:green;
+}
+
+/* Universal Selector */
+*{
+    background-color: black;
+}
+
+/* Group Selector */
+h1,h2,h3{
+    color: white;
+}
+
+
+
+.one{
+    font-family: cursive;
+    background-color: beige;
+    color: red;
+    font-size:32px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.two{
+    font-family: cursive;
+    background-color: aqua;
+    color: blueviolet;
+    font-size:2em;
+}
+.three{
+    background-color: violet;
+    color: chocolate;
+    font-size:2rem;
+}
+.four{
+    background-color: yellow;
+    color: red;
+    /* font color */
+    font-size: 2rem;
+    font-family: cursive;
+    /* font type */
+    text-align: justify;
+    /* justify removes zigzag at end of line . */
+    line-height: 50px;
+    /*the height between lines*/
+    letter-spacing: 5px;
+    /* the spacing between letters */
+   
+}

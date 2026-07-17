@@ -1,0 +1,31 @@
+.one{
+    background-color: blue;
+    color: red;
+}
+.one:hover{
+    background-color: red;
+    color: blue;
+    text-decoration:underline ;
+    font-size: 40px;
+}
+.two:visited{
+    color: red;
+}
+.two:active{
+    color: yellow;
+    
+}
+
+/* its "input" not a class */
+input:focus{
+    color: red;
+    background-color: yellow;
+    width: 500px;
+}
+
+p:first-child{
+    color: aqua;
+}
+p:last-child{
+    color: blueviolet;
+}

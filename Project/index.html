@@ -1,0 +1,181 @@
+<!--Name:Prakayush Kumar-->
+<!--Registration Number:25ETAI410102-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prakayush|Portfolio</title>
+
+    <meta name="keywords" content="web developer,React,Js,Portfolio,HTML,CSS" />
+    <meta name="author" content="Prakayush" />
+
+    <!-- open graph (for facebook,linkedin,whatsapp Previews) -->
+    <meta property="og:title" content="Prakayush|Web Developer" />
+    <meta
+      property="og:description"
+      content=" full stack Web Developer specialized in front-end and back-end development.Available for freelance work and open to new opportunities."
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/0j6Z7gM/IMG-20230619-174059.jpg"
+    />
+    <meta property="og:url" content="https://prakayush.github.io/Portfolio/" />
+    <meta property="og:type" content="website" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter.title" content="Prakayush|Web Developer" />
+    <link rel="icon" href="my img.jpg" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Navigation Bar:</h3>
+        <div class="logo">PK</div>
+        <ul>
+          <li>
+            <a href="#about"><button>about</button></a>
+          </li>
+          <li>
+            <a href="#skills"><button>skills</button></a>
+          </li>
+          <li>
+            <a href="#projects"><button>projects</button></a>
+          </li>
+          <li>
+            <a href="#contact"><button>contact</button></a>
+          </li>
+        </ul>
+        <button
+          class="theme-toogle"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          🌙
+        </button>
+        <button
+          class="menu-toggle"
+          aria-label="toggle-navigation"
+          aria-expanded="False"
+          title="Nav Bar"
+        >
+          ≡
+        </button>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <section id="about" class="about-section">
+        <h2><u>About Me</u></h2>
+        <h1><em>Hi, I'm Prakayush</em>😊</h1>
+        <p>
+          I'm a <strong>web developer</strong> passionate about creating
+          interactive and user-friendly websites.
+        </p>
+        <a href="#Hire"
+          ><button style="background-color: aqua">Hire Me</button></a
+        >
+        <br />
+        <figure>
+          <img
+            src="my img.jpg"
+            alt="Prakayush's Profile Photo"
+            width="150"
+            height="150"
+          />
+          <figcaption><u>Prakayush|Web Developer</u></figcaption>
+        </figure>
+        <p>
+          I love creating beautiful and functional websites that provide an
+          excellent user experience.
+        </p>
+      </section>
+
+      <hr />
+      <section id="skills" class="skills-section">
+        <h2><u>My skills</u></h2>
+        <div class="skill-grid">
+          <div class="skill-item" data-level="90">HTML</div>
+          <div class="skill-item" data-level="80">CSS</div>
+          <div class="skill-item" data-level="75">JavaScript</div>
+          <div class="skill-item" data-level="80">React</div>
+        </div>
+      </section>
+
+      <hr />
+      <section id="projects" class="projects-section">
+        <h2><u>My Projects</u></h2>
+        <div class="projects-grid">
+          <article class="project-card" data-category="web" data-year="2026">
+            <img
+              src="images.png"
+              alt="Weather app screen shot"
+              width="150px"
+              height="150px"
+            />
+            <h3>Weather Application</h3>
+            <p>
+              A web application that provides real-time weather information for
+              any location.
+            </p>
+            <div class="projects_tag" data-category="web" data-year="2026">
+              <span>React</span>
+              <span>API</span>
+            </div>
+            <br />
+            <a href="#Live Demo">Live Demo</a>
+            <a href="#GitHub">Github</a>
+          </article>
+        </div>
+
+        <hr />
+      </section>
+      <section id="contact" class="contact-section">
+        <h2><u>Get In touch</u></h2>
+        <form action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="Email">Email:</label>
+            <input
+              type="email"
+              id="Email"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">message:</label>
+            <textarea name="message" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Send Your Response🚀👆
+          </button>
+        </form>
+      </section>
+      <hr />
+    </main>
+    <footer class="site-footer">
+      <p><strong>&copy;</strong> Prakayush Kumar. Built with HTML & CSS ❤️</p>
+      <nav aria-label="socialmedia links">
+        <a href="https://github.com/prakayushmsruas-hub" target="_blank"
+          >GitHub</a
+        >
+        <a href="https://www.linkedin.com/in/prakayush-kumar-37a1b63b8/"
+          >linkedIn</a
+        >
+      </nav>
+    </footer>
+    <hr />
+  </body>
+</html>
