@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body{
+            background-color: black;
+            
+        }
+        .square{
+           
+            width:200px ;
+            height: 200px;
+            background-color: red;
+            font-size: 10em;
+            text-align: center;
+            /* animation-name: sideleft;
+            animation-duration: 5s;
+            animation-name: rotate;
+            animation-duration: 5s;
+            animation-name: shrink;
+            animation-duration: 5s;*/
+            animation-iteration-count: infinite; 
+            /* animation-name: colorchange;
+            animation-duration: 5s; */
+            animation-name:glow;
+            animation-duration: 5s;
+        }
+        /* .square:hover{
+            animation-name: fade;
+            animation-duration: 5s;
+
+        } */
+        @keyframes sideleft{
+            from{transform: translateX(300%);
+            }
+        }
+        @keyframes rotate{
+            50%{
+                transform: rotate(180deg);
+
+                }
+            }
+
+        @keyframes grow{
+            50%{
+                transform:scale(2,2)
+            }
+        }    
+        @keyframes shrink{
+            50%{
+                transform:scale(0.5,0.5)
+            }
+        }    
+        @keyframes fade{
+            50%{
+                opacity:0;
+            }
+        }  
+        @keyframes colorchange{
+            0%{background-color: blue;}
+            20%{background-color: black;}
+            40%{background-color: brown;}
+            60%{background-color: aqua;}
+            100%{background-color: greenyellow;}
+        }
+        @keyframes glow{
+            50%{
+                box-shadow: 10px 10px 100px yellow;
+            }
+        } 
+        
+    </style>
+</head>
+<body>
+    <div class="square">
+        Hii
+    </div>
+</body>
+</html>
