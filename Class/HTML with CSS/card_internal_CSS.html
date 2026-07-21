@@ -5,16 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card</title>
     <style>
+        *{
+            background-color: lawngreen;
+        }
         .card{
             display:flex;
             justify-content: space-between;
             align-items: center;
             text-align: center;
+            font-family: cursive;
+            text-transform: uppercase;
+            background-color: black;
+            
         }
+        
         .box{
-            border: 5px red solid;
+            border: 20px red inset;
             padding: 15px;
-            margin: 30px;
+            width: max-content;
+            background-color:aqua;
+            
+        }
+
+        .box:hover{
+            zoom:125%;
+        }
+        h2{
+            background-color: yellow;
+            text-decoration: underline;
+        }
+        .buttons{
+            background-color: black;
+            color: aliceblue;
+            font-family: cursive;
+        }
+        .buttons:hover{
+            
+            background-color: yellow;
+            font-size: 25px;
+            color: black;
+        }
+        p{
+            background-color: yellow;
         }
     </style>
 </head>
@@ -24,25 +56,25 @@
             <h2>Master 3D Design</h2>
             <img src="3d.png" alt="" width="200px" height="200px">
             <p>Earn Global Solidworks</p>
-            <button>View More</button>
+            <button title="Click To view More" class="buttons">View More</button>
         </div>
         <div class="box">
             <h2>Embedded systems</h2>
             <img src="emb.jpeg" alt="" width="200px" height="200px">
-            <p>Earn Global Solidworks</p>
-            <button>View More</button>
+            <p>Earn Embedded systems</p>
+           <button title="Click To view More" class="buttons">View More</button>
         </div>
         <div class="box">
             <h2>VLSI</h2>
             <img src="vlsi.jpeg" alt="" width="200px" height="200px">
-            <p>Earn Global Solidworks</p>
-            <button>View More</button>
+            <p>Earn VLSI</p>
+            <button title="Click To view More" class="buttons">View More</button>
         </div>
         <div class="box">
             <h2>Software Engineering</h2>
             <img src="soft.jpeg" alt="" width="200px" height="200px">
-            <p>Earn Global Solidworks</p>
-            <button>View More</button>
+            <p>Earn Software engineering</p>
+            <button title="Click To view More" class="buttons">View More</button>
         </div>
     </div>
 </body>
