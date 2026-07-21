@@ -270,5 +270,13 @@ input:focus{
 .site-footer{
     background-color:var(--footer);
     color: greenyellow;
-    
+    text-align: center;
+    padding:15px ;
+}
+.menu-toggle{
+    background:none;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
 }
