@@ -16,3 +16,16 @@ const heroTitle= document.querySelector('.hero-section h1');
 if (heroTitle){
     heroTitle.textContent = `${getGreeting()}, I'm Prakayush Kumar 👋`
 }
+
+function currenttime(){
+    const time= new Date().toLocaleTimeString();
+    return time;
+}
+const datetime=document.querySelector('.date-time');
+if (datetime){
+    datetime.textContent = `${currenttime()}`;
+
+    setInterval(() => {
+        datetime.textContent=currenttime();
+    },1000);
+}

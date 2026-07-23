@@ -34,6 +34,13 @@
     z-index:10000 ;
   
 }
+.date-time{
+    color: black;
+    font-family: cursive;
+    border: 2px double grey;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .one{
     color: black;
