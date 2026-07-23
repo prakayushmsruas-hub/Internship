@@ -98,6 +98,7 @@ section h2::after{
     color: aliceblue;
     width: 25px;
     font-weight: bolder;
+    display:none;
 }
 
 .hero-section{
